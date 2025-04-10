@@ -1,0 +1,23 @@
+[
+  {
+    "Username": "Frida",
+    "AvatarPath": "C:\\Users\\elena\\OneDrive\\Documente\\Facultate-INFORMATICA\\An_2\\sem2\\MAP\\MemoryGame\\MemoryGame\\Resources\\Avatars\\avatar2.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0,
+    "GamesLost": 0
+  },
+  {
+    "Username": "Monet",
+    "AvatarPath": "C:\\Users\\elena\\OneDrive\\Documente\\Facultate-INFORMATICA\\An_2\\sem2\\MAP\\MemoryGame\\MemoryGame\\Resources\\Avatars\\avatar1.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0,
+    "GamesLost": 0
+  },
+  {
+    "Username": "Leo",
+    "AvatarPath": "C:\\Users\\elena\\OneDrive\\Documente\\Facultate-INFORMATICA\\An_2\\sem2\\MAP\\MemoryGame\\MemoryGame\\Resources\\Avatars\\avatar5.jpg",
+    "GamesPlayed": 0,
+    "GamesWon": 0,
+    "GamesLost": 0
+  }
+]

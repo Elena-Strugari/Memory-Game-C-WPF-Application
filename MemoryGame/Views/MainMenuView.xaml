@@ -1,0 +1,23 @@
+﻿<Window x:Class="MemoryGame.Views.MainMenuView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGame.Views"
+        mc:Ignorable="d"
+        Title="MainMenuView" Height="450" Width="800">
+    <!--<Window.DataContext>
+        <vm:MainMenuViewModel />
+    </Window.DataContext>-->
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="362">
+            <TextBlock Text="🎮 Memory Game Menu" FontSize="28" FontWeight="Bold" Foreground="#884488" TextAlignment="Center" Margin="0,0,0,30" Width="345" />
+
+            <Button Content="🧠 New Game" Command="{Binding NewGameCommand}" Height="50" Margin="0,10" FontWeight="SemiBold" Background="#FFDCBDF7" BorderBrush="#FFBAA0D1" />
+            <Button Content="📁 Load Game" Command="{Binding LoadGameCommand}" Height="50" Margin="0,10" FontWeight="SemiBold" Background="#FFB5EAD7" BorderBrush="#FFA2C2B2" />
+            <Button Content="📊 Statistics" Command="{Binding StatisticsCommand}" Height="50" Margin="0,10" FontWeight="SemiBold" Background="#FFFFDAC1" BorderBrush="#FFD6A78B" />
+            <Button Content="❌ Exit" Command="{Binding ExitCommand}" Height="50" Margin="0,30,0,0" FontWeight="Bold" Background="#FFF4BFBF" BorderBrush="#FFCC7E7E" />
+        </StackPanel>
+    </Grid>
+</Window>
